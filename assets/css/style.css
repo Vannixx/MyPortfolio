@@ -84,10 +84,17 @@ nav ul li a:hover::after {
     display: flex;
 }
 
+/* change this later after checking */
+.short-intro{
+    text-align: center;
+    margin-top: 200px;
+}
+
 .short-intro,
 .pic-container {
     flex: 1;
     text-align: center;
+    
 }
 
 .pic-holder {
