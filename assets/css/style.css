@@ -77,18 +77,21 @@ nav ul li a:hover::after {
     height: auto;
     max-width: 500px;
     border-radius: 50%;
-    background: rgb(218, 218, 218);
+    background: rgb(58, 58, 58);
 }
 
 .wrapper {
     display: flex;
+    margin-bottom: 60px;
 }
 
 /* change this later after checking */
 .short-intro{
+    position: flex;
     text-align: center;
     margin-top: 200px;
 }
+
 
 .short-intro,
 .pic-container {
@@ -105,7 +108,7 @@ nav ul li a:hover::after {
 /* about */
 .about-container h1{
     text-align: center;
-    margin: 20px 15px;
+    margin: 25px 15px;
 }
 .about-container h1, p{
     color: white;
