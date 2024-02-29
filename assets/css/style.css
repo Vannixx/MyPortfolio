@@ -122,39 +122,60 @@ nav ul li a:hover::after {
 }
 
 /* logo/icons */
-.logo-container{
+.social-container{
+    position: absolute;
+    justify-content: center;
     display: flex;
-    
-    
+    top: 450px;
+    left: 16%;
 }
 .icon-holder{
     margin: auto 15px;
     
 }
-
 .github-logo{
-    width: 50px;
+    width: 60px;
     height: auto;
     transition: .9s ease;
+    border-radius: 50px;
+    background-color: white;
+    padding:10px 10px 10px 10px;
     
 }
 
 .github-logo:hover{
-    background-color: white;
     transition: .9s ease;
     border-radius: 15px;
-    transform: scale(1.2);
+    transform: translateY(-10px);
 }
 
 .fb-logo{
-    width: 50px;
+    width: 60px;
     height: auto;
     transition: .9s ease;
+    border-radius: 50px;
+    background-color: white;
+    padding:10px 10px 10px 10px;
+    
 }
 
 .fb-logo:hover{
+    transition: .9s ease;
+    border-radius: 15px;
+    transform: translateY(-10px);
+}
+
+.twitter-logo{
+    width: 60px;
+    height: auto;
+    transition: .9s ease;
+    border-radius: 50px;
+    background-color: white;
+    padding:10px 10px 10px 10px;
+}
+.twitter-logo:hover{
     background-color: white;
     transition: .9s ease;
     border-radius: 15px;
-    transform: scale(1.2);
+    transform: translateY(-10px);
 }
