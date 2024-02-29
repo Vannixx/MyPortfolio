@@ -67,6 +67,9 @@ nav ul li a:hover::after {
     color: white;
     margin: 0;   
 }
+.pos-holder{
+    color: #ffffff;
+}
 
 #my-name{
     color: red;
@@ -138,7 +141,7 @@ nav ul li a:hover::after {
     height: auto;
     transition: .9s ease;
     border-radius: 50px;
-    background-color: white;
+    background-color: #ffffff;
     padding:10px 10px 10px 10px;
     
 }
@@ -154,7 +157,7 @@ nav ul li a:hover::after {
     height: auto;
     transition: .9s ease;
     border-radius: 50px;
-    background-color: white;
+    background-color: #ffffff;
     padding:10px 10px 10px 10px;
     
 }
@@ -170,11 +173,10 @@ nav ul li a:hover::after {
     height: auto;
     transition: .9s ease;
     border-radius: 50px;
-    background-color: white;
+    background-color: #ffffff;
     padding:10px 10px 10px 10px;
 }
 .twitter-logo:hover{
-    background-color: white;
     transition: .9s ease;
     border-radius: 15px;
     transform: translateY(-10px);
