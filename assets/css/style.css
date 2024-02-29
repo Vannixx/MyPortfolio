@@ -110,6 +110,7 @@ nav ul li a:hover::after {
 .about-container h1{
     text-align: center;
     margin: 25px 15px;
+    font-size: 30px;
 }
 .about-container h1, p{
     color: white;
@@ -118,4 +119,42 @@ nav ul li a:hover::after {
     font-size: 24px;
     text-align: justify;
     margin: 5px 20px;
+}
+
+/* logo/icons */
+.logo-container{
+    display: flex;
+    
+    
+}
+.icon-holder{
+    margin: auto 15px;
+    
+}
+
+.github-logo{
+    width: 50px;
+    height: auto;
+    transition: .9s ease;
+    
+}
+
+.github-logo:hover{
+    background-color: white;
+    transition: .9s ease;
+    border-radius: 15px;
+    transform: scale(1.2);
+}
+
+.fb-logo{
+    width: 50px;
+    height: auto;
+    transition: .9s ease;
+}
+
+.fb-logo:hover{
+    background-color: white;
+    transition: .9s ease;
+    border-radius: 15px;
+    transform: scale(1.2);
 }
