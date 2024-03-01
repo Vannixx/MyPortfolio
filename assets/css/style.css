@@ -113,7 +113,7 @@ nav ul li a:hover::after {
 .about-container h1{
     text-align: center;
     margin: 25px 15px;
-    font-size: 30px;
+    font-size: 55px;
 }
 .about-container h1, p{
     color: white;
@@ -124,7 +124,13 @@ nav ul li a:hover::after {
     margin: 5px 20px;
 }
 
-/* logo/icons */
+.txt-container p{
+    text-align: center;
+    
+}
+
+
+/* SOCIAL ICONS */
 .social-container{
     position: absolute;
     justify-content: center;
