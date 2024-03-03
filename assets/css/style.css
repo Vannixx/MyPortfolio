@@ -145,7 +145,7 @@ nav ul li a:hover::after {
     width: 60px;
     height: auto;
     transition: .9s ease;
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: #ffffff;
     padding:10px 10px 10px 10px;
     
@@ -153,15 +153,15 @@ nav ul li a:hover::after {
 
 .github-logo:hover{
     transition: .9s ease;
-    border-radius: 15px;
-    transform: translateY(-10px);
+    border-radius: 50px;
+    transform: translateY(-14px);
 }
 
 .fb-logo{
     width: 60px;
     height: auto;
     transition: .9s ease;
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: #ffffff;
     padding:10px 10px 10px 10px;
     
@@ -169,22 +169,22 @@ nav ul li a:hover::after {
 
 .fb-logo:hover{
     transition: .9s ease;
-    border-radius: 15px;
-    transform: translateY(-10px);
+    border-radius: 50px;
+    transform: translateY(-14px);
 }
 
 .twitter-logo{
     width: 60px;
     height: auto;
     transition: .9s ease;
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: #ffffff;
     padding:10px 10px 10px 10px;
 }
 .twitter-logo:hover{
     transition: .9s ease;
-    border-radius: 15px;
-    transform: translateY(-10px);
+    border-radius: 50px;
+    transform: translateY(-14px);
 }
 
 
